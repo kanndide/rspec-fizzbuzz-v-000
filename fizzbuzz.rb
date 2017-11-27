@@ -5,7 +5,7 @@ def fizzbuzz(int)
   if int % 5 == 1
     then puts "Buzz"
   end
-  if int % 3 & 5 == 1
+  if int % 3 & 5 == 0
     then puts "FizzBuzz"
   end
 end
